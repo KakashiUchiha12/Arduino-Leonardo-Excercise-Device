@@ -1,0 +1,10 @@
+Step 1: Pin Definitions
+Rotary Encoder Pins:
+GND: Connect to Arduino GND.
++: Connect to Arduino 5V for power.
+CLK (Clock): Connect to a pin that supports interrupts (e.g., D2).
+DT (Data): Connect to another digital pin (e.g., D3).
+MS (Push-Button): Optional. Connect to a digital pin if you want to use the encoder’s button (e.g., D4).
+Red Warning LED:
+Connect the positive leg (longer leg) of the LED to D13 through a 220Ω resistor.
+Connect the negative leg (shorter leg) to GND.
